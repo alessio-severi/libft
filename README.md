@@ -17,7 +17,7 @@ make re     # esegue fclean e ricompila da zero
 
 Per usare la libreria in un progetto:
 ```c
-#include "ft_printf.h"
+#include "libft.h"
 ```
 ```bash
 # compilare con:
