@@ -15,7 +15,7 @@
 int	ft_atoi(const char *str)
 {
 	int		sgn;
-	long	number;
+	int		number;
 
 	sgn = 1;
 	number = 0;
@@ -26,5 +26,5 @@ int	ft_atoi(const char *str)
 			sgn *= -1;
 	while (*str >= '0' && *str <= '9')
 		number = number * 10 + *str++ - '0';
-	return ((int)(number * sgn));
+	return (number * sgn);
 }
